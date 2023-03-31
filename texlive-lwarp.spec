@@ -1,6 +1,6 @@
 Name:		texlive-lwarp
 Version:	63905
-Release:	1
+Release:	2
 Summary:	Converts LaTeX to HTML
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/lwarp
