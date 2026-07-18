@@ -1,5 +1,6 @@
 %global tl_name lwarp
 %global tl_revision 79391
+%global tl_bin_links lwarpmk:%{_texmfdistdir}/scripts/lwarp/lwarpmk.lua
 
 Name:		texlive-%{tl_name}
 Epoch:		1
@@ -16,6 +17,8 @@ BuildArch:	noarch
 BuildSystem:	texlive
 Requires:	texlive(lwarp.bin)
 Provides:	texlive(%{tl_name}) = %{tl_revision}
+Provides:	texlive(%{tl_name}.bin) = %{tl_revision}
+Provides:	texlive-%{tl_name}.bin = %{EVRD}
 
 %description
 This package converts LaTeX to HTML by using LaTeX to process the user's
